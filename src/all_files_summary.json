@@ -1,0 +1,20 @@
+{
+  "backend/main.mo": "Main backend actor with hardcoded product data and query functions to filter products by category, price range, and rating; includes MixinStorage for blob storage capabilities.",
+  "feature_evidence.json": "Feature evidence report documenting three implemented features: product catalog display, filtering sidebar, and modern e-commerce design theme with associated files and test IDs.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend source files describing components for product display, filtering, and catalog layout with e-commerce styling.",
+  "frontend/index.css": "Tailwind CSS base styles with custom CSS variables defining a complete design system for light and dark modes using OKLCH color space.",
+  "frontend/index.html": "HTML entry point for the React application with title 'Shop Filter' and root div mounting point.",
+  "frontend/src/App.tsx": "Root React component that renders the CatalogPage as the main application view.",
+  "frontend/src/components/FilterSidebar.tsx": "Sidebar component with category checkboxes, price range slider, and rating filters with clear functionality and active filter indicators.",
+  "frontend/src/components/ProductCard.tsx": "Product card component displaying image, name, description, category badge, rating, and price with hover animations and category-based image mapping.",
+  "frontend/src/components/ProductGrid.tsx": "Responsive grid layout component that renders product cards with loading skeleton states and empty state messaging.",
+  "frontend/src/hooks/useActor.ts": "React hook that manages backend actor creation with Internet Identity authentication, handling both authenticated and anonymous actors with query invalidation on identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides React context and hooks for Internet Identity authentication on ICP, managing login state, identity persistence, and delegation validation with configurable AuthClient options.",
+  "frontend/src/hooks/useProductFilters.ts": "Custom hook that manages product filtering state (categories, price range, rating) and applies client-side filtering logic to products fetched from backend queries.",
+  "frontend/src/hooks/useQueries.ts": "Defines React Query hooks for fetching products from the backend actor with queries for all products, by category, by price range, and by rating.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables defining a warm e-commerce color palette using OKLCH color space for both light and dark modes.",
+  "frontend/src/main.tsx": "Application entry point that sets up React Query client and Internet Identity provider, then renders the root App component.",
+  "frontend/src/pages/CatalogPage.tsx": "Main catalog page component displaying a header, hero banner, filter sidebar, and product grid with footer, using the useProductFilters hook to manage filtering state.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the default theme with custom OKLCH color system, container settings, border radius variables, custom shadows, and animation keyframes.",
+  "project_state.json": "Project metadata tracking implemented features (product catalog, filtering sidebar, visual design) and pending backend requirements (data model, query methods, sample data seeding)."
+}

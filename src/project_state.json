@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "E-commerce website with product filtering capabilities to help online shoppers make quick decisions",
+  "architectural_notes": [
+    "E-commerce website architecture with filtering functionality"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Modern e-commerce hero banner with shopping theme, clean and professional (hero-banner.dim_1200x400.png)\n- Product placeholder image for electronics category item (product-electronics.dim_400x400.png)\n- Product placeholder image for clothing category item (product-clothing.dim_400x400.png)\n- Product placeholder image for home goods category item (product-home.dim_400x400.png)\n- Product placeholder image for books category item (product-books.dim_400x400.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-product-catalog-display-showing-multiple-products-with-images-names-prices-and-brief-descriptions-in-a-grid-layout",
+      "title": "Create a product catalog display showing multiple products with images, names, prices, and brief descriptions in a grid layout",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-filtering-sidebar-with-options-for-category-price-range-and-rating-to-help-shoppers-make-quick-decisions",
+      "title": "Implement a filtering sidebar with options for category, price range, and rating to help shoppers make quick decisions",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-modern-clean-visual-design-theme-with-a-professional-e-commerce-aesthetic-featuring-neutral-tones-with-accent-colors-clear-typography-for-product-information-and-intuitive-interaction-patterns-for-filtering-and-browsing",
+      "title": "Apply a modern, clean visual design theme with a professional e-commerce aesthetic, featuring neutral tones with accent colors, clear typography for product information, and intuitive interaction patterns for filtering and browsing",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Product filtering system for quick shopper decisions",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Create a backend product data model with fields for name, description, price, category, rating, and image URL",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Implement backend query methods to retrieve products filtered by category, price range, and rating",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Seed the application with sample product data covering multiple categories and price ranges for demonstration",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Shop Filter",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

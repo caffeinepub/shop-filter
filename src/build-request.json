@@ -1,0 +1,126 @@
+{
+  "kind": "build_request",
+  "title": "Create e-commerce website with product filtering",
+  "projectName": "Shop Filter",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a product catalog display showing multiple products with images, names, prices, and brief descriptions in a grid layout",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Products are displayed in a responsive grid layout",
+        "Each product card shows an image, name, price, and description",
+        "Layout adapts to different screen sizes"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Implement a filtering sidebar with options for category, price range, and rating to help shoppers make quick decisions",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Online shoppers require product filtering options to make quick decisions"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Filtering sidebar is visible and accessible",
+        "Users can filter by category using checkboxes or buttons",
+        "Users can filter by price range using a slider or input fields",
+        "Users can filter by rating selection",
+        "Product grid updates immediately when filters are applied"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create a backend product data model with fields for name, description, price, category, rating, and image URL",
+      "target": "backend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Product type includes all necessary fields",
+        "Products can be stored and retrieved",
+        "Data model supports filtering operations"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Implement backend query methods to retrieve products filtered by category, price range, and rating",
+      "target": "backend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Query method accepts filter parameters",
+        "Returns only products matching all applied filters",
+        "Handles edge cases when no filters are applied"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Seed the application with sample product data covering multiple categories and price ranges for demonstration",
+      "target": "backend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "At least 15-20 sample products are pre-loaded",
+        "Products span multiple categories",
+        "Products have varied price points and ratings"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Apply a modern, clean visual design theme with a professional e-commerce aesthetic, featuring neutral tones with accent colors, clear typography for product information, and intuitive interaction patterns for filtering and browsing",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Visual theme is consistently applied across all pages",
+        "Color scheme supports readability and hierarchy",
+        "Typography is clear and appropriate for product information",
+        "Interactive elements have clear hover and active states"
+      ]
+    }
+  ],
+  "constraints": [
+    "Use only Motoko for backend implementation",
+    "Use React with TypeScript and Tailwind CSS for frontend",
+    "Maintain single-actor architecture in backend"
+  ],
+  "nonGoals": [
+    "Shopping cart functionality",
+    "User authentication or accounts",
+    "Payment processing",
+    "Product reviews or comments",
+    "Admin panel for product management"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Modern e-commerce hero banner with shopping theme, clean and professional (hero-banner.dim_1200x400.png)",
+      "Product placeholder image for electronics category item (product-electronics.dim_400x400.png)",
+      "Product placeholder image for clothing category item (product-clothing.dim_400x400.png)",
+      "Product placeholder image for home goods category item (product-home.dim_400x400.png)",
+      "Product placeholder image for books category item (product-books.dim_400x400.png)"
+    ],
+    "edits": []
+  }
+}

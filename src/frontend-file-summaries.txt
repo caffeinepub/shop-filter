@@ -1,0 +1,11 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the CatalogPage as the root view.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for fetching products from the backend with support for filtering by category, price range, and rating.",
+  "frontend/src/hooks/useProductFilters.ts": "Custom hook that manages filter state and combines multiple filter criteria to return filtered products with available categories.",
+  "frontend/src/components/ProductCard.tsx": "Product card component displaying product image, name, description, category badge, rating, and price with hover effects.",
+  "frontend/src/components/ProductGrid.tsx": "Responsive grid layout component that renders product cards with loading states and empty state messaging.",
+  "frontend/src/components/FilterSidebar.tsx": "Sidebar component with category checkboxes, price range slider, and rating filters with clear functionality.",
+  "frontend/src/pages/CatalogPage.tsx": "Main catalog page integrating header, hero banner, filter sidebar, product grid, and footer with complete e-commerce layout.",
+  "frontend/src/index.css": "Global styles with warm terracotta and coral color palette optimized for e-commerce using OKLCH color system for both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration with custom e-commerce color tokens, Inter font family, and extended shadow utilities."
+}
